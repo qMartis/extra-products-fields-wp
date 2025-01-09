@@ -1,0 +1,7 @@
+{
+	"name": "qmartis/extra-products-fields-wp",
+	"type": "wordpress-plugin",
+	"description": "Extra products fields for wp",
+	"license": "se.lt",
+	"require": {}
+}
