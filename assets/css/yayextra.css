@@ -1,0 +1,509 @@
+.yayextra-option-field-wrap {
+  margin-bottom: 1em;
+  /* display: none; */
+}
+
+.yayextra-option-field-wrap input[type='text'],
+.yayextra-option-field-wrap input[type='number'],
+.yayextra-option-field-wrap select {
+  width: 100%;
+}
+
+.yayextra-option-field-label {
+  margin-left: 10px;
+}
+
+.yayextra-opt-button-content {
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+.yayextra-option-field-label.yayextra-option-button-label {
+  margin-left: unset;
+  margin-right: 10px;
+  border: 1px solid;
+  padding: 10px;
+  cursor: pointer;
+}
+.yayextra-option-field-label.yayextra-option-button-label.checked {
+  background-color: #333333;
+  border-color: #333333;
+  color: #ffffff;
+}
+.yayextra-opt-button {
+  margin-top: 20px;
+}
+.yayextra-addition-des {
+  margin-bottom: 7px;
+}
+.yayextra-addition-des-swatches-button,
+.yayextra-addition-des-dropdown {
+  display: none;
+}
+.yayextra-addition-des-button {
+  margin-top: -15px;
+}
+.yayextra-opt-swatches-content {
+  display: flex;
+  align-items: center;
+}
+.yayextra-opt-swatches-content.direction-vertical {
+  display: inline-grid !important;
+}
+.yayextra-opt-swatches {
+  margin: 6px 10px 6px 3px;
+  cursor: pointer;
+}
+.yayextra-option-field-swatches-label {
+  border-radius: 3px;
+  height: 38px;
+  width: 38px;
+}
+.yayextra-option-field-swatches-label-image {
+  background-repeat: no-repeat;
+  background-size: 38px 38px;
+}
+.yayextra-option-field-swatches-label.checked {
+  outline: 2px solid;
+  outline-offset: 1px;
+}
+.yayextra-option-field-swatches-label.shape-circle {
+  border-radius: 50% !important;
+}
+.yayextra-option-field-swatches-label.shape-oval {
+  border-radius: 50% !important;
+  background-size: 50px 38px !important;
+  width: 50px !important;
+  height: 38px !important;
+}
+.yayextra-option-field-swatches-label.shape-rectangular {
+  width: 50px !important;
+  height: 38px !important;
+  background-size: 50px 38px !important;
+}
+
+/** Tooltip - start */
+.yayextra-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.yayextra-tooltip .yayextra-tooltiptext {
+  visibility: hidden;
+  position: absolute;
+  width: max-content;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 8px 21px;
+  border-radius: 3px;
+  z-index: 10;
+  opacity: 0;
+  transition: all 0.3s;
+  max-width: 250px;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.yayextra-tooltip-bottom {
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 11px;
+}
+
+.yayextra-tooltip-top {
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 11px;
+}
+
+.yayextra-opt-button .yayextra-tooltip-left {
+  top: -5px;
+  right: 103%;
+}
+.yayextra-opt-swatches .yayextra-tooltip-left {
+  top: 5px;
+  right: 122%;
+}
+
+.yayextra-opt-button .yayextra-tooltip-right {
+  top: -5px;
+  left: 98%;
+}
+.yayextra-opt-swatches .yayextra-tooltip-right {
+  top: 5px;
+  left: 122%;
+}
+
+/* Tooltip arrow */
+.yayextra-tooltip-bottom::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #555 transparent;
+}
+
+.yayextra-tooltip-top::after {
+  content: ' ';
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.yayextra-tooltip-right::after {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #555 transparent transparent;
+}
+
+.yayextra-tooltip-left::after {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  left: 100%; /* To the right of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #555;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.yayextra-tooltip-wrap:hover + .yayextra-tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+/** Tooltip - end */
+
+/** CSS for date picker **/
+#ui-datepicker-div {
+  background-color: white;
+  padding: 1rem;
+  margin-top: 10px;
+}
+#ui-datepicker-div table.ui-datepicker-calendar > tbody > tr > td {
+  cursor: pointer;
+}
+#ui-datepicker-div .ui-datepicker-header > a {
+  cursor: pointer;
+}
+#ui-datepicker-div .ui-datepicker-header > .ui-datepicker-prev {
+  margin-right: 2rem;
+}
+/** end **/
+
+/** CSS for time picker **/
+.yayextra-time-picker {
+  margin-top: 10px;
+}
+
+.yayextra-datetimepicker {
+  position: relative;
+  margin: 2px 0 0;
+  padding: 0;
+  font-size: 14px;
+  color: #333;
+  background-color: #fafafa;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  line-height: 0;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+}
+.yayextra-datetimepicker * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.yayextra-datetimepicker table {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-collapse: separate;
+  border-spacing: 2px;
+  background-color: white;
+  padding: 3px;
+}
+.yayextra-datetimepicker table td {
+  border: 0;
+  text-align: center;
+  padding: 2px;
+  width: 34px;
+  height: 27px;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.yayextra-datetimepicker table td.weekend {
+  color: #d9534f;
+}
+.yayextra-datetimepicker table.mt tbody td {
+  width: 58px;
+  height: 38px;
+}
+.yayextra-datetimepicker td.day {
+  width: 14.28571429%;
+}
+.yayextra-datetimepicker td.name {
+  font-weight: bold;
+}
+.yayextra-datetimepicker td.oday {
+  color: #cccccc;
+  cursor: auto;
+}
+.yayextra-datetimepicker td.disabled {
+  color: #999;
+  cursor: auto;
+}
+.yayextra-datetimepicker td i {
+  font-size: 18px;
+  font-weight: bold;
+}
+.yayextra-datetimepicker td table.tt {
+  border: 0;
+  padding: 0;
+}
+.yayextra-datetimepicker table.tt {
+  padding: 5px;
+}
+.yayextra-datetimepicker table.tt td.hover {
+  border: 0;
+}
+.yayextra-datetimepicker table.tt td.common {
+  width: 5px;
+}
+.yayextra-datetimepicker table.tt tbody td {
+  width: 40px;
+  height: 14px;
+}
+.yayextra-datetimepicker table.tt input {
+  outline: none;
+  border: 1px solid #cccccc;
+  margin: 0 auto;
+  padding: 0 !important;
+  width: 38px;
+  height: 24px;
+  text-align: center;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-transition: border-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
+  -ms-transition: border-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
+  -webkit-transition: border-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
+  -o-transition: border-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
+  transition: border-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
+}
+.yayextra-datetimepicker table.tt input:focus {
+  border-color: #66afe9;
+  -webkit-box-shadow: 0 0 6px rgba(102, 175, 233, 0.6);
+  -moz-box-shadow: 0 0 6px rgba(102, 175, 233, 0.6);
+  box-shadow: 0 0 6px rgba(102, 175, 233, 0.6);
+}
+.yayextra-datetimepicker table.tt input[type='number']::-webkit-inner-spin-button,
+.yayextra-datetimepicker table.tt input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.yayextra-datetimepicker table.tt input[type='number'] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.yayextra-datetimepicker .buttonpane {
+  border-top: 1px solid #cccccc;
+}
+.yayextra-datetimepicker tbody td.hover {
+  background-color: #eee;
+  padding: 1px;
+  border: 1px solid #cccccc;
+}
+.yayextra-datetimepicker tbody td.today {
+  font-weight: bold;
+  color: #178cdf;
+}
+.yayextra-datetimepicker tbody td.selected {
+  font-weight: bold;
+  padding: 1px;
+  color: white;
+  border: 1px solid #178cdf;
+  background-color: #178cdf;
+}
+.yayextra-datetimepicker tfoot td.hover {
+  background-color: #eee;
+  padding: 1px;
+  border: 1px solid #eee;
+}
+.yayextra-datetimepicker thead td.hover {
+  background-color: #eee;
+  padding: 1px;
+  border: 1px solid #eee;
+}
+.yayextra-datetimepicker thead td.title {
+  font-weight: bold;
+  text-align: center;
+  padding: 2px;
+}
+.yayextra-datetimepicker i {
+  font-family: 'finex';
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.yayextra-datetimepicker i.icon-datepicker-minus:before {
+  content: '\e601';
+}
+.yayextra-datetimepicker i.icon-datepicker-plus:before {
+  content: '\e603';
+}
+.yayextra-datetimepicker i.icon-datepicker-prev:before {
+  content: '\e602';
+}
+.yayextra-datetimepicker i.icon-datepicker-next:before {
+  content: '\e600';
+}
+/** end **/
+.yayextra-option-file_upload_des {
+  margin: unset;
+}
+
+.yayextra-option-edit-link-minicart,
+.woocommerce-mini-cart .yayextra-option-edit-link
+{
+  text-decoration: underline;
+}
+.yayextra-product-extra-opt .product-remove .remove,
+.yayextra-product-extra-opt .remove_from_cart_button {
+  display: none !important;
+}
+.yayextra-product-extra-opt .product-quantity .quantity input {
+  pointer-events: none !important;
+  opacity: 0.5 !important;
+}
+
+.yayextra-notification {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  font-size: 13px;
+  background-color: #32373c;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 16px 24px;
+  width: fit-content;
+  max-width: 600px;
+  box-sizing: border-box;
+  cursor: pointer;
+  animation: NslideUp 0.5s both linear;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 20;
+}
+@keyframes NslideDown {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(0, 50%, 0);
+  }
+}
+.yay-smtp-notification .NslideDown {
+  animation: NslideDown 0.5s both linear;
+}
+@keyframes growAndShrink {
+  0%,
+  100% {
+    stroke-dashoffset: 200;
+  }
+  50% {
+    stroke-dashoffset: 50;
+    transform: rotate(135deg);
+  }
+  100% {
+    transform: rotate(450deg);
+  }
+}
+.yayextra-spinner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 12;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yayextra-spinner .woocommerce-spinner__circle {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 0;
+  transform-origin: center;
+  animation: growAndShrink 2s ease-in-out infinite;
+  stroke: #1d2327;
+}
+.yayextra-spinner .woocommerce-spinner {
+  animation: rotate 2s linear infinite;
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  max-height: 40px;
+}
+.yayextra-change-product-img-btn {
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.yayextra-change-swatches-image-wrap {
+  display: none;
+}
+.yayextra-change-swatches-image-label {
+  cursor: pointer;
+  text-decoration: underline;
+  display: none;
+}
+.yayextra-extra-subtotal-price,
+.yayextra-total-price {
+  margin-bottom: 1em;
+}
+.yayextra-total-price .total-price-title,
+.yayextra-extra-subtotal-price .total-price-title {
+  margin-right: 7px;
+}
+.yayextra-option-field-wrap .error-message-text {
+  color: indianred;
+  margin-top: 5px;
+}
+.yayextra-hide-extra-options-values-mini-cart .variation {
+  display: none;
+}
+.yayextra-extra-subtotal-price:has(.total-price[data-token-replace="0"]) {
+ display: none;
+}

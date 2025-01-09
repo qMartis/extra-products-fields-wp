@@ -1,0 +1,411 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YayExtra Lite - WooCommerce Extra Product Options\n"
+"POT-Creation-Date: 2024-01-16 08:23+0700\n"
+"PO-Revision-Date: 2024-01-16 08:23+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: yayextra.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/Classes/ProductPage.php:156
+msgid "Extra subtotal:"
+msgstr ""
+
+#: includes/Classes/ProductPage.php:163
+msgid "Total price:"
+msgstr ""
+
+#: includes/Classes/ProductPage.php:239 includes/Classes/ProductPage.php:244
+#: includes/Classes/ProductPage.php:251 includes/Classes/ProductPage.php:262
+#: includes/Classes/ProductPage.php:294
+msgid " is a required field."
+msgstr ""
+
+#: includes/Classes/ProductPage.php:302 includes/Classes/ProductPage.php:328
+msgid " is invalid email format"
+msgstr ""
+
+#: includes/Classes/ProductPage.php:308 includes/Classes/ProductPage.php:334
+msgid " is invalid url format"
+msgstr ""
+
+#: includes/Classes/ProductPage.php:314 includes/Classes/ProductPage.php:340
+msgid " is invalid string format"
+msgstr ""
+
+#: includes/Classes/ProductPage.php:368 includes/Classes/ProductPage.php:418
+msgid "View cart"
+msgstr ""
+
+#. translators: &quot;%1$s&quot;: option value.
+#: includes/Classes/ProductPage.php:371 includes/Classes/ProductPage.php:421
+#, php-format
+msgid ""
+"You cannot add that amount of &quot;%1$s&quot; to the cart &mdash; we have "
+"%2$d in stock and you already have %3$d in your cart."
+msgstr ""
+
+#. translators: &quot;%1$s&quot;: option value.
+#: includes/Classes/ProductPage.php:389 includes/Classes/ProductPage.php:438
+#, php-format
+msgid ""
+"You cannot add that amount of &quot;%1$s&quot; to the cart because there is "
+"not enough stock ( %2$d remaining ) . "
+msgstr ""
+
+#: includes/Classes/ProductPage.php:565 includes/Classes/ProductPage.php:683
+msgid "Upload File successful"
+msgstr ""
+
+#: includes/Classes/ProductPage.php:836 includes/Classes/ProductPage.php:1537
+msgid "Edit option field"
+msgstr ""
+
+#. translators: %1$s: option value.
+#: includes/Classes/ProductPage.php:1061
+#, php-format
+msgid ""
+"Sorry, we do not have enough \"%1$s\" in stock to fulfill your order (%2$s "
+"available). We apologize for any inconvenience caused."
+msgstr ""
+
+#: includes/Classes/ProductPage.php:1409
+msgid "Update cart"
+msgstr ""
+
+#. translators: %s: product title
+#: includes/Classes/ProductPage.php:2324
+#, php-format
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s: product quantity
+#: includes/Classes/ProductPage.php:2326
+#, php-format
+msgid "%s has been updated."
+msgid_plural "%s have been updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Helper/Utils.php:23 includes/Init/Ajax.php:90
+#: includes/Init/Ajax.php:127 includes/Init/Ajax.php:195
+#: includes/Init/Ajax.php:222 includes/Init/Ajax.php:303
+#: includes/Init/Ajax.php:327 includes/Init/Ajax.php:350
+#: includes/Init/Ajax.php:378 includes/Init/Ajax.php:449
+#: includes/Init/Ajax.php:486 includes/Init/Ajax.php:510
+#: includes/Init/Ajax.php:660 includes/YayCommerceMenu/OtherPluginsMenu.php:292
+#: includes/YayCommerceMenu/OtherPluginsMenu.php:341
+#: includes/YayCommerceMenu/OtherPluginsMenu.php:389
+msgid "Nonce is invalid"
+msgstr ""
+
+#: includes/I18n.php:35
+msgid "Choose color"
+msgstr ""
+
+#: includes/I18n.php:36
+msgid "Oops! Something went wrong!"
+msgstr ""
+
+#: includes/I18n.php:37
+msgid "An option value have to set as default."
+msgstr ""
+
+#: includes/I18n.php:38 includes/I18n.php:45
+msgid "Upload Image"
+msgstr ""
+
+#: includes/I18n.php:39 includes/I18n.php:46
+msgid "Save changes"
+msgstr ""
+
+#: includes/I18n.php:42
+msgid "Show option sets for roles"
+msgstr ""
+
+#: includes/I18n.php:43
+msgid ""
+"Choose specific roles to show option sets. If have no role, option sets are "
+"always shown."
+msgstr ""
+
+#: includes/I18n.php:44
+msgid "Hide option sets for roles"
+msgstr ""
+
+#: includes/Init/Ajax.php:202
+msgid "Duplicate option set failed."
+msgstr ""
+
+#: includes/Init/Ajax.php:230
+msgid "Import at least 1 JSON file"
+msgstr ""
+
+#: includes/Init/Ajax.php:549 includes/Init/Ajax.php:606
+msgid "Upload Image successful"
+msgstr ""
+
+#: includes/Init/Ajax.php:616
+msgid "Data is empty"
+msgstr ""
+
+#: includes/Init/CustomPostType.php:25 includes/Init/CustomPostType.php:26
+msgid "Option Set"
+msgstr ""
+
+#: includes/Init/CustomPostType.php:27
+msgid "Add New Option Set"
+msgstr ""
+
+#: includes/Init/CustomPostType.php:28
+msgid "Add a new Option Set"
+msgstr ""
+
+#: includes/Init/CustomPostType.php:29
+msgid "Edit Option Set"
+msgstr ""
+
+#: includes/Init/CustomPostType.php:30
+msgid "New Option Set"
+msgstr ""
+
+#: includes/Init/CustomPostType.php:31
+msgid "View Option Set"
+msgstr ""
+
+#: includes/Init/CustomPostType.php:32
+msgid "Search Option Set"
+msgstr ""
+
+#: includes/Init/CustomPostType.php:33
+msgid "No Option Set found"
+msgstr ""
+
+#: includes/Init/CustomPostType.php:34
+msgid "No Option Set currently trashed"
+msgstr ""
+
+#: includes/Init/Settings.php:74 includes/Init/Settings.php:86
+#: includes/YayCommerceMenu/RegisterMenu.php:151
+msgid "YayExtra"
+msgstr ""
+
+#: includes/Init/Settings.php:86
+msgid "Settings"
+msgstr ""
+
+#: includes/Templates/dropdown_field.php:41
+msgid "Select your option"
+msgstr ""
+
+#: includes/Templates/file_upload_field.php:28
+#, no-php-format
+msgid "( max file size % s )"
+msgstr ""
+
+#: includes/UpdateVersion.php:14
+msgid ""
+"It looks like you have another YayExtra version installed, please delete it "
+"before activating this new version. All current settings and data are still "
+"preserved."
+msgstr ""
+
+#: includes/UpdateVersion.php:15
+msgid "Read more details."
+msgstr ""
+
+#: includes/YayCommerceMenu/OtherPluginsMenu.php:122
+msgid "Other Plugins"
+msgstr ""
+
+#: includes/YayCommerceMenu/OtherPluginsMenu.php:310
+msgid "Get data success"
+msgstr ""
+
+#: includes/YayCommerceMenu/OtherPluginsMenu.php:318
+#: includes/YayCommerceMenu/OtherPluginsMenu.php:362
+#: includes/YayCommerceMenu/OtherPluginsMenu.php:472
+msgid "Error exception."
+msgstr ""
+
+#: includes/YayCommerceMenu/OtherPluginsMenu.php:327
+#: includes/YayCommerceMenu/OtherPluginsMenu.php:371
+#: includes/YayCommerceMenu/OtherPluginsMenu.php:481
+msgid "Error."
+msgstr ""
+
+#: includes/YayCommerceMenu/OtherPluginsMenu.php:355
+msgid "Activate success"
+msgstr ""
+
+#: includes/YayCommerceMenu/OtherPluginsMenu.php:438
+msgid "Install success"
+msgstr ""
+
+#: includes/YayCommerceMenu/OtherPluginsMenu.php:462
+msgid "Update success"
+msgstr ""
+
+#: includes/YayCommerceMenu/RegisterMenu.php:87
+msgid "Help"
+msgstr ""
+
+#: includes/YayCommerceMenu/RegisterMenu.php:94
+msgid "Licenses"
+msgstr ""
+
+#: includes/YayCommerceMenu/RegisterMenu.php:101
+msgid "Other plugins"
+msgstr ""
+
+#. translators: %s: Plugin name and version.
+#: includes/YayCommerceMenu/views/other-plugins-content.php:76
+#: includes/YayCommerceMenu/views/other-plugins-content.php:84
+#, php-format
+msgctxt "plugin"
+msgid "Install %s now"
+msgstr ""
+
+#: includes/YayCommerceMenu/views/other-plugins-content.php:77
+#: includes/YayCommerceMenu/views/other-plugins-content.php:85
+msgid "Install Now"
+msgstr ""
+
+#: includes/YayCommerceMenu/views/other-plugins-content.php:91
+msgctxt "plugin"
+msgid "Cannot Install"
+msgstr ""
+
+#. translators: %s: Plugin name and version.
+#: includes/YayCommerceMenu/views/other-plugins-content.php:108
+#: includes/YayCommerceMenu/views/other-plugins-content.php:119
+#, php-format
+msgctxt "plugin"
+msgid "Update %s now"
+msgstr ""
+
+#: includes/YayCommerceMenu/views/other-plugins-content.php:110
+#: includes/YayCommerceMenu/views/other-plugins-content.php:121
+msgid "Update Now"
+msgstr ""
+
+#: includes/YayCommerceMenu/views/other-plugins-content.php:127
+msgctxt "plugin"
+msgid "Cannot Update"
+msgstr ""
+
+#: includes/YayCommerceMenu/views/other-plugins-content.php:144
+msgctxt "plugin"
+msgid "Activated"
+msgstr ""
+
+#: includes/YayCommerceMenu/views/other-plugins-content.php:149
+msgid "Activate"
+msgstr ""
+
+#. translators: %s: Plugin name.
+#: includes/YayCommerceMenu/views/other-plugins-content.php:151
+#, php-format
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr ""
+
+#: includes/YayCommerceMenu/views/other-plugins-content.php:162
+msgid "Network Activate"
+msgstr ""
+
+#. translators: %s: Plugin name.
+#: includes/YayCommerceMenu/views/other-plugins-content.php:164
+#, php-format
+msgctxt "plugin"
+msgid "Network Activate %s"
+msgstr ""
+
+#: includes/YayCommerceMenu/views/other-plugins-content.php:177
+msgctxt "plugin"
+msgid "Cannot Activate"
+msgstr ""
+
+#: includes/YayCommerceMenu/views/other-plugins-content.php:183
+msgctxt "plugin"
+msgid "Installed"
+msgstr ""
+
+#: includes/YayCommerceMenu/views/other-plugins-content.php:213
+msgid "This plugin doesn&#8217;t work with your versions of WordPress and PHP."
+msgstr ""
+
+#. translators: 1: URL to WordPress Updates screen, 2: URL to Update PHP page.
+#: includes/YayCommerceMenu/views/other-plugins-content.php:217
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please update WordPress</a>, and then <a "
+"href=\"%2$s\">learn more about updating PHP</a>."
+msgstr ""
+
+#. translators: %s: URL to WordPress Updates screen.
+#: includes/YayCommerceMenu/views/other-plugins-content.php:225
+#: includes/YayCommerceMenu/views/other-plugins-content.php:241
+#, php-format
+msgid "<a href=\"%s\">Please update WordPress</a>."
+msgstr ""
+
+#. translators: %s: URL to Update PHP page.
+#: includes/YayCommerceMenu/views/other-plugins-content.php:231
+#: includes/YayCommerceMenu/views/other-plugins-content.php:250
+#, php-format
+msgid "<a href=\"%s\">Learn more about updating PHP</a>."
+msgstr ""
+
+#: includes/YayCommerceMenu/views/other-plugins-content.php:237
+msgid "This plugin doesn&#8217;t work with your version of WordPress."
+msgstr ""
+
+#: includes/YayCommerceMenu/views/other-plugins-content.php:246
+msgid "This plugin doesn&#8217;t work with your version of PHP."
+msgstr ""
+
+#. translators: %s: search WooCommerce plugin link
+#: yayextra.php:81
+#, php-format
+msgid ""
+"is enabled but not effective. It requires %1$sWooCommerce%2$s in order to "
+"work."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "YayExtra - WooCommerce Extra Product Options"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://yaycommerce.com/yayextra-woocommerce-extra-product-options"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Offer extra options like personal engraving, print-on-demand items, gifts, "
+"custom canvas prints, and personalized products."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "YayCommerce"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://yaycommerce.com"
+msgstr ""
