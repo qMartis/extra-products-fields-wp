@@ -107,7 +107,7 @@ if ( ! empty( $option_value_list ) ) {
 			$addition_description = $opt['additionalDescription']['description'];
 		}
 
-		echo '<div class="">';
+		echo '<div class="checkbox_field_wrap">';
 		echo '<span class=""><input id="' . esc_attr( $id_opt ) . '" class="' . esc_attr( $class_names ) . '" type="checkbox" data-addition-cost="' . esc_attr( $addition_cost ) . '" value="' . esc_attr( $opt['value'] ) . '"' . ( ! empty( $checked_results ) && in_array( $opt['value'], $checked_results, true ) ? 'checked' : '' ) . ' name="option_field_data[' . esc_attr( $opt_set_id ) . '][' . esc_attr( $data['id'] ) . '][]"></span>';
 		echo '<label class="yayextra-option-field-label" for="' . esc_attr( $id_opt ) . '">' . Utils::transform_url_to_html_from_db(  $label ) . '</label>';
 		if ( ! empty( $addition_description ) ) {
